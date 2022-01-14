@@ -171,48 +171,47 @@ public final class AdService {
   }
 
   private static ImmutableListMultimap<String, Ad> createAdsMap() {
-    Ad hairdryer =
+    Ad stickers =
         Ad.newBuilder()
             .setRedirectUrl("/product/2ZYFJ3GM2N")
-            .setText("Hairdryer for sale. 50% off.")
+            .setText("Stickers for sale. 50% off.")
             .build();
-    Ad tankTop =
+    Ad elves =
         Ad.newBuilder()
             .setRedirectUrl("/product/66VCHSJNUP")
-            .setText("Tank top for sale. 20% off.")
+            .setText("Elves for sale. 20% off.")
             .build();
-    Ad candleHolder =
+    Ad tees =
         Ad.newBuilder()
             .setRedirectUrl("/product/0PUK6V6EV0")
-            .setText("Candle holder for sale. 30% off.")
+            .setText("Tees for sale. 30% off.")
             .build();
-    Ad bambooGlassJar =
+    Ad cupMats =
         Ad.newBuilder()
             .setRedirectUrl("/product/9SIQT8TOJO")
-            .setText("Bamboo glass jar for sale. 10% off.")
+            .setText("Cup mats for sale. 10% off.")
             .build();
-    Ad watch =
+    Ad glasses =
         Ad.newBuilder()
             .setRedirectUrl("/product/1YMWWN1N4O")
-            .setText("Watch for sale. Buy one, get second kit for free")
+            .setText("Drinking glasses for sale. Buy one, get second one for free")
             .build();
-    Ad mug =
+    Ad planters =
         Ad.newBuilder()
             .setRedirectUrl("/product/6E92ZMYYFZ")
-            .setText("Mug for sale. Buy two, get third one for free")
+            .setText("Planters for sale. Buy two, get third one for free")
             .build();
-    Ad loafers =
+    Ad socks =
         Ad.newBuilder()
             .setRedirectUrl("/product/L9ECAV7KIM")
-            .setText("Loafers for sale. Buy one, get second one for free")
+            .setText("Socks for sale. Buy one, get second pair for free")
             .build();
     return ImmutableListMultimap.<String, Ad>builder()
-        .putAll("clothing", tankTop)
-        .putAll("accessories", watch)
-        .putAll("footwear", loafers)
-        .putAll("hair", hairdryer)
-        .putAll("decor", candleHolder)
-        .putAll("kitchen", bambooGlassJar, mug)
+        .putAll("clothing", socks, tees)
+        .putAll("accessories", glasses, planters, stickers)
+        .putAll("footwear", socks)
+        .putAll("toys", elves)
+        .putAll("kitchen", glasses, cupMats)
         .build();
   }
 
