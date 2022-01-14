@@ -19,7 +19,7 @@
             "picture": "/static/img/products/elf.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 19,
                 "nanos": 990000000
             },
             "categories": ["toys"]
@@ -31,7 +31,7 @@
             "picture": "/static/img/products/glass.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 109,
+                "units": 12,
                 "nanos": 990000000
             },
             "categories": ["accessories", "kitchen"]
@@ -43,7 +43,7 @@
             "picture": "/static/img/products/socks.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 89,
+                "units": 14,
                 "nanos": 990000000
             },
             "categories": ["clothing", "footwear"]
@@ -55,7 +55,7 @@
             "picture": "/static/img/products/stickers.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 24,
+                "units": 5,
                 "nanos": 990000000
             },
             "categories": ["accessories"]
@@ -67,7 +67,7 @@
             "picture": "/static/img/products/tee.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 24,
                 "nanos": 990000000
             },
             "categories": ["clothing"]
@@ -79,7 +79,7 @@
             "picture": "/static/img/products/cookie.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 2,
                 "nanos": 490000000
             },
             "categories": ["food", "kitchen"]

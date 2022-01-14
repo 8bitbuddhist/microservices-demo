@@ -244,7 +244,7 @@ footer.py-5 {
 
 footer .footer-top {
   padding: 60px 0px;
-  background-color: #23C386;
+  background-color: #0E6655;
   color: white;
 }
 
@@ -301,12 +301,12 @@ main {
 
 .home-mobile-hero-banner {
   height: 200px;
-  background: url(/static/images/folded-clothes-on-white-chair-wide.jpg) no-repeat top center;
+  background: url(/static/images/Gremlin-Peak.png) no-repeat top center;
   background-size: cover;
 }
 
 .home-desktop-left-image {
-  background: url(/static/images/folded-clothes-on-white-chair.jpg) no-repeat center;
+  background: url(/static/images/Gremlin-Hang.png) no-repeat center;
   background-size: cover;
 }
 
