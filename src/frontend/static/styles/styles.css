@@ -575,7 +575,7 @@ the rules below could be extracted.
 
 .cymbal-button-primary, .cymbal-button-secondary {
   display: inline-block;
-  border: solid 1px #CE0631;
+  border: solid 1px rgb(21, 87, 178);
   padding: 8px 16px;
   outline: none;
   font-size: 14px;
@@ -588,13 +588,13 @@ the rules below could be extracted.
 }
 
 .cymbal-button-primary {
-  background-color: #CE0631;
+  background-color: rgb(21, 87, 178);
   color: white;
 }
 
 .cymbal-button-secondary {
   background: none;
-  color: #CE0631;
+  color: rgb(21, 87, 178);
 }
 
 .cymbal-form-field {
