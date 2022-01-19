@@ -2,8 +2,20 @@
 <img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" />
 </p>
 
+## Gremlin Boutique
 
-![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg)
+This is a Gremlin-ified version of the Online Boutique demo application.
+
+**Changes from the original version**:
+- Gremlin-themed products and styling
+- Removed GKE-specific calls in the frontend, which were causing latency. See [this change](https://github.com/8bitbuddhist/microservices-demo/commit/7c699d518c715cf8e0fbe6a9f055047e8943d041#diff-4bdc00d5364cd240b99fee79e8b037fcee41abdf5ae3acfb0c24e61bc1357988) for more info.
+
+To run this application:
+1. Set up your Kubernetes cluster and configure kubectl
+2. Install [Skaffold](https://skaffold.dev/) to your workstation
+3. Run `skaffold run`
+  - If you want to deploy to a specific namespace, like `gremlin-boutiqe`, run `skaffold run --namespace gremlin-boutique`
+
 
 > **⚠ ATTENTION: Apache Log4j 2 advisory.**  
 > Due to [vulnerabilities](https://cloud.google.com/log4j2-security-advisory) present in earlier versions

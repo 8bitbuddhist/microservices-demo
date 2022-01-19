@@ -51,7 +51,7 @@
         {
             "id": "2ZYFJ3GM2N",
             "name": "Stickers",
-            "description": "High quality stickers to decorate your laptop, desk, fridge, or car.",
+            "description": "High quality stickers to decorate your laptop, desk, mini-fridge, or server rack.",
             "picture": "/static/img/products/stickers.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
@@ -75,7 +75,7 @@
         {
             "id": "LS4PSXUNUM",
             "name": "Cookies",
-            "description": "Hand-crafted sugar cookies with a Gremlin pirate. The perfect dessert for engineering team pizza \"parties\".",
+            "description": "Hand-crafted sugar cookies with a Gremlin pirate. The perfect dessert for after-hours engineering team pizza parties.",
             "picture": "/static/img/products/cookie.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
