@@ -15,6 +15,7 @@ To run this application:
 2. Install [Skaffold](https://skaffold.dev/) to your workstation
 3. Run `skaffold run`
   - If you want to deploy to a specific namespace, like `gremlin-boutiqe`, run `skaffold run --namespace gremlin-boutique`
+  - To force a complete rebuild, run `skaffold delete && skaffold run --no-prune=false --cache-artifacts=false --force`
 
 
 > **⚠ ATTENTION: Apache Log4j 2 advisory.**  

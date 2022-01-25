@@ -307,7 +307,8 @@ main {
 
 .home-desktop-left-image {
   background: url(/static/images/Gremlin-Hang.png) no-repeat center;
-  background-size: cover;
+  /* background-size: cover; */
+  transform: scaleX(-1);
 }
 
 .hot-products-row h3 {
