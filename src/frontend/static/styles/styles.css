@@ -30,7 +30,7 @@ body {
 /* Header */
 
 header {
-  background-color: #853B5C;
+  background-color: #23C386;
   color: white;
 }
 
@@ -68,7 +68,7 @@ header .cart-size-circle {
   font-size: 11px;
   border-radius: 4px 4px 0 4px;
   color: white;
-  background-color: #853B5C;
+  background-color: #23C386;
 }
 
 header .navbar {
@@ -244,7 +244,7 @@ footer.py-5 {
 
 footer .footer-top {
   padding: 60px 0px;
-  background-color: #570D2E;
+  background-color: #0E6655;
   color: white;
 }
 
@@ -301,13 +301,14 @@ main {
 
 .home-mobile-hero-banner {
   height: 200px;
-  background: url(/static/images/folded-clothes-on-white-chair-wide.jpg) no-repeat top center;
+  background: url(/static/images/Gremlin-Peak.png) no-repeat top center;
   background-size: cover;
 }
 
 .home-desktop-left-image {
-  background: url(/static/images/folded-clothes-on-white-chair.jpg) no-repeat center;
-  background-size: cover;
+  background: url(/static/images/Gremlin-Hang.png) no-repeat center;
+  /* background-size: cover; */
+  transform: scaleX(-1);
 }
 
 .hot-products-row h3 {
@@ -370,14 +371,14 @@ similar to that of the hot-products-row.
 .home-desktop-footer-row {
   padding-left: 9%;
   padding-right: 9%;
-  background-color: #570D2E;
+  background-color: #0E6655;
 }
 
 /* Ad */
 
 .ad {
   position: relative;
-  background-color: #FF9A9B;
+  background-color: #23C386;
   font-size: 24px;
   text-align: center;
 }
@@ -575,7 +576,7 @@ the rules below could be extracted.
 
 .cymbal-button-primary, .cymbal-button-secondary {
   display: inline-block;
-  border: solid 1px #CE0631;
+  border: solid 1px rgb(21, 87, 178);
   padding: 8px 16px;
   outline: none;
   font-size: 14px;
@@ -588,13 +589,13 @@ the rules below could be extracted.
 }
 
 .cymbal-button-primary {
-  background-color: #CE0631;
+  background-color: rgb(21, 87, 178);
   color: white;
 }
 
 .cymbal-button-secondary {
   background: none;
-  color: #CE0631;
+  color: rgb(21, 87, 178);
 }
 
 .cymbal-form-field {

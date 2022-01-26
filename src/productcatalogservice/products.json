@@ -2,93 +2,93 @@
     "products": [
         {
             "id": "OLJCESPC7Z",
-            "name": "Sunglasses",
-            "description": "Add a modern touch to your outfits with these sleek aviator sunglasses.",
-            "picture": "/static/img/products/sunglasses.jpg",
+            "name": "Plushie",
+            "description": "Gremlinify your workspace with this adorable plushie.",
+            "picture": "/static/img/products/plushie.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 19,
                 "nanos": 990000000
             },
-            "categories": ["accessories"]
+            "categories": ["toys"]
         },
         {
             "id": "66VCHSJNUP",
-            "name": "Tank Top",
-            "description": "Perfectly cropped cotton tank, with a scooped neckline.",
-            "picture": "/static/img/products/tank-top.jpg",
+            "name": "Elf",
+            "description": "A little \"helper\" from Santa. A perfect ornament for the Christmas tree!",
+            "picture": "/static/img/products/elf.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 19,
                 "nanos": 990000000
             },
-            "categories": ["clothing", "tops"]
+            "categories": ["toys"]
         },
         {
             "id": "1YMWWN1N4O",
-            "name": "Watch",
-            "description": "This gold-tone stainless steel watch will work with most of your outfits.",
-            "picture": "/static/img/products/watch.jpg",
+            "name": "Glass",
+            "description": "8 oz drinking glass. The best way to stay hydrated when you're on-call.",
+            "picture": "/static/img/products/glass.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 109,
+                "units": 12,
+                "nanos": 990000000
+            },
+            "categories": ["accessories", "kitchen"]
+        },
+        {
+            "id": "L9ECAV7KIM",
+            "name": "Socks",
+            "description": "Comfy as heck with a little gremlin hanging off the side.",
+            "picture": "/static/img/products/socks.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 14,
+                "nanos": 990000000
+            },
+            "categories": ["clothing", "footwear"]
+        },
+        {
+            "id": "2ZYFJ3GM2N",
+            "name": "Stickers",
+            "description": "High quality stickers to decorate your laptop, desk, mini-fridge, or server rack.",
+            "picture": "/static/img/products/stickers.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 5,
                 "nanos": 990000000
             },
             "categories": ["accessories"]
         },
         {
-            "id": "L9ECAV7KIM",
-            "name": "Loafers",
-            "description": "A neat addition to your summer wardrobe.",
-            "picture": "/static/img/products/loafers.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 89,
-                "nanos": 990000000
-            },
-            "categories": ["footwear"]
-        },
-        {
-            "id": "2ZYFJ3GM2N",
-            "name": "Hairdryer",
-            "description": "This lightweight hairdryer has 3 heat and speed settings. It's perfect for travel.",
-            "picture": "/static/img/products/hairdryer.jpg",
+            "id": "0PUK6V6EV0",
+            "name": "Tee",
+            "description": "A high-quality black t-shirt with the Gremlin logo on the front.",
+            "picture": "/static/img/products/tee.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 24,
                 "nanos": 990000000
             },
-            "categories": ["hair", "beauty"]
-        },
-        {
-            "id": "0PUK6V6EV0",
-            "name": "Candle Holder",
-            "description": "This small but intricate candle holder is an excellent gift.",
-            "picture": "/static/img/products/candle-holder.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 18,
-                "nanos": 990000000
-            },
-            "categories": ["decor", "home"]
+            "categories": ["clothing"]
         },
         {
             "id": "LS4PSXUNUM",
-            "name": "Salt & Pepper Shakers",
-            "description": "Add some flavor to your kitchen.",
-            "picture": "/static/img/products/salt-and-pepper-shakers.jpg",
+            "name": "Cookies",
+            "description": "Hand-crafted sugar cookies with a Gremlin pirate. The perfect dessert for after-hours engineering team pizza parties.",
+            "picture": "/static/img/products/cookie.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 2,
                 "nanos": 490000000
             },
-            "categories": ["kitchen"]
+            "categories": ["food", "kitchen"]
         },
         {
             "id": "9SIQT8TOJO",
-            "name": "Bamboo Glass Jar",
-            "description": "This bamboo glass jar can hold 57 oz (1.7 l) and is perfect for any kitchen.",
-            "picture": "/static/img/products/bamboo-glass-jar.jpg",
+            "name": "Cup Mat",
+            "description": "A cork cup mat to go with your shiny new Gremlin glass.",
+            "picture": "/static/img/products/cup-holder.jpg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 5,
@@ -98,15 +98,15 @@
         },
         {
             "id": "6E92ZMYYFZ",
-            "name": "Mug",
-            "description": "A simple mug with a mustard interior.",
-            "picture": "/static/img/products/mug.jpg",
+            "name": "Planter",
+            "description": "Ceramic planter. Perfect for succulents!.",
+            "picture": "/static/img/products/planter.png",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 8,
                 "nanos": 990000000
             },
-            "categories": ["kitchen"]
+            "categories": ["accessories", "kitchen"]
         }
     ]
 }

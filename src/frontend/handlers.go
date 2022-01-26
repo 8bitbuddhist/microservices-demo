@@ -26,7 +26,6 @@ import (
 	"strings"
 	"time"
 
-	"cloud.google.com/go/compute/metadata"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -520,7 +519,6 @@ func stringinSlice(slice []string, val string) bool {
 
 func getDeploymentDetails(httpRequest *http.Request) map[string]string {
 	var deploymentDetailsMap = make(map[string]string)
-	var metaServerClient = metadata.NewClient(&http.Client{})
 	var log = httpRequest.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
 
 	podHostname, err := os.Hostname()
@@ -528,12 +526,12 @@ func getDeploymentDetails(httpRequest *http.Request) map[string]string {
 		log.Error("Failed to fetch the hostname for the Pod", err)
 	}
 
-	podCluster, err := metaServerClient.InstanceAttributeValue("cluster-name")
+	podCluster := "gremlin-demo"
 	if err != nil {
 		log.Error("Failed to fetch the name of the cluster in which the pod is running", err)
 	}
 
-	podZone, err := metaServerClient.Zone()
+	podZone := "local"
 	if err != nil {
 		log.Error("Failed to fetch the Zone of the node where the pod is scheduled", err)
 	}
