@@ -1,5 +1,6 @@
 <p align="center">
-<img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" />
+<img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" style="max-width:50%; margin: 5%"/>
+<img src="src/frontend/static/icons/Gremlin-logo.svg" width="300" alt="Online Boutique" style="max-width:50%; margin: 5%"/>
 </p>
 
 ## Gremlin Boutique
@@ -17,6 +18,7 @@ To run this application:
   - If you want to deploy to a specific namespace, like `gremlin-boutiqe`, run `skaffold run --namespace gremlin-boutique`
   - To force a complete rebuild, run `skaffold delete && skaffold run --no-prune=false --cache-artifacts=false --force`
 
+## Online Boutique
 
 > **⚠ ATTENTION: Apache Log4j 2 advisory.**  
 > Due to [vulnerabilities](https://cloud.google.com/log4j2-security-advisory) present in earlier versions
