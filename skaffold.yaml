@@ -46,8 +46,8 @@ build:
     context: src/adservice
   tagPolicy:
     gitCommit: {}
-  local:
-    useBuildkit: false
+  #local:
+  #  useBuildkit: false
 deploy:
   kubectl:
     manifests:
